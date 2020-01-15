@@ -1,0 +1,62 @@
+ /*   mobile css   */
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20% 0;
+}
+
+.text {
+  width: 80%;
+  font-family: Times;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #707070;
+}
+.logo {
+  width: 15%;
+  margin: 5% auto;
+}
+
+.logo svg {
+  background: transparent;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  font-weight: bold;
+  color: #9C22AE;
+  text-decoration: none;
+}
+
+ /*   tablet css   */
+
+@media (min-width: 600px) {
+  .wrapper {
+    padding: 15% 0;
+  }
+
+  .text {
+    font-size: 20px;
+    color: #707070;
+  }
+}
+
+ /*   desktop css   */
+
+@media (min-width: 960px) {
+  .wrapper {
+    padding: 10% 0;
+  }
+
+  .text {
+    font-size: 24px;
+    color: #707070;
+  }
+}
