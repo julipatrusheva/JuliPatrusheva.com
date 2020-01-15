@@ -1,4 +1,8 @@
  /*   mobile css   */
+body {
+  overflow-y: hidden;
+  margin: 0;
+}
 
 .wrapper {
   width: 100%;
@@ -35,6 +39,36 @@ a {
   font-weight: bold;
   color: #9C22AE;
   text-decoration: none;
+}
+
+.parrots {
+  position: absolute;
+  width: 100%;
+  top:0;
+  left:0;
+}
+
+.parrot {
+  width: 400px;
+  fill-opacity: 0.10;
+}
+
+.parrot.left {
+  position: absolute;
+  top:-20%;
+  left: 0%;
+  margin-left: -150px;
+  -webkit-transform: scale(-1, -1);
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+.parrot.right {
+  position: absolute;
+  right: -270px;
+  bottom: -170px;
+  bottom: -20%;
 }
 
 /*   only for mobile css   */
