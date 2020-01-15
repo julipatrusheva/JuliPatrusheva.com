@@ -1,9 +1,7 @@
  /*   mobile css   */
 body {
-  overflow-y: hidden;
   margin: 0;
 }
-
 .wrapper {
   width: 100%;
   display: flex;
@@ -20,8 +18,9 @@ body {
   text-align: center;
   color: #707070;
 }
+
 .logo {
-  width: 25%;
+  width: 10em;
   margin: 5% auto;
 }
 
@@ -74,6 +73,10 @@ a {
 /*   only for mobile css   */
 
 @media (max-width: 599px) {
+  .wrapper {
+    margin: 10% auto;
+  }
+
   p {
     margin: 30px 0;
   }
@@ -93,7 +96,6 @@ a {
   }
 
   .logo {
-    width: 15%;
     margin: 5% auto;
   }
 }
@@ -108,10 +110,5 @@ a {
   .text {
     font-size: 22px;
     color: #707070;
-  }
-
-  .logo {
-    width: 9%;
-    margin: 5% auto;
   }
 }
